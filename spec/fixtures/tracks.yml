@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  record_id: null
+  content_url: http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata
+  title: Fennesz and Sparklehorse - Music Box oF Snakes
+  description: Ambient Hyptonic Electro Minimal Snap Crackle Pop
+
+two:
+  record_id: null
+  content_url: MyString
+  title: MyString
+  description: MyString

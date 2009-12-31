@@ -1,0 +1,510 @@
+  [4;36;1mTrack Create (0.6ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:30:16', 'value for title', '2009-12-31 19:30:16', 'value for description')[0m
+  [4;36;1mTrack Load (0.5ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#descriptionMyStringtitleMyStringcontent_urlMyString (for 0.0.0.0 at 2009-12-31 12:34:33) [POST]
+Rendering track/descriptionMyStringtitleMyStringcontent_urlMyString
+  [4;35;1mTrack Create (0.0ms)[0m   [0mSQLite3::SQLException: database schema has changed: INSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:34:34', 'value for title', '2009-12-31 19:34:34', 'value for description')[0m
+  [4;36;1mTrack Create (0.6ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:34:34', 'value for title', '2009-12-31 19:34:34', 'value for description')[0m
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:34:36', 'value for title', '2009-12-31 19:34:36', 'value for description')[0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#descriptionMyStringcontent_urlMyStringtitleMyString (for 0.0.0.0 at 2009-12-31 12:34:37) [POST]
+Rendering track/descriptionMyStringcontent_urlMyStringtitleMyString
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#descriptionAmbient Hyptonic Electro Minimal Snap Crackle PoptitleFennesz and Sparklehorse - Music Box oF Snakescontent_urlhttp://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata (for 0.0.0.0 at 2009-12-31 12:48:40) [POST]
+Rendering track/descriptionAmbient Hyptonic Electro Minimal Snap Crackle PoptitleFennesz and Sparklehorse - Music Box oF Snakescontent_urlhttp://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata
+  [4;35;1mTrack Create (0.5ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:48:40', 'value for title', '2009-12-31 19:48:40', 'value for description')[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#descriptionAmbient Hyptonic Electro Minimal Snap Crackle PoptitleFennesz and Sparklehorse - Music Box oF Snakescontent_urlhttp://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata (for 0.0.0.0 at 2009-12-31 12:48:43) [POST]
+Rendering track/descriptionAmbient Hyptonic Electro Minimal Snap Crackle PoptitleFennesz and Sparklehorse - Music Box oF Snakescontent_urlhttp://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata
+  [4;35;1mTrack Create (26.9ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:48:43', 'value for title', '2009-12-31 19:48:43', 'value for description')[0m
+  [4;36;1mTrack Load (0.5ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mTrack Create (0.5ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:50:16', 'value for title', '2009-12-31 19:50:16', 'value for description')[0m
+  [4;36;1mTrack Load (0.6ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#http://test.host/tracks/new (for 0.0.0.0 at 2009-12-31 12:53:00) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+Rendering track/http://test.host/tracks/new
+  [4;35;1mTrack Create (0.4ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:53:00', 'value for title', '2009-12-31 19:53:00', 'value for description')[0m
+  [4;36;1mTrack Load (1.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 12:55:16) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.7ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:55:16', 'value for title', '2009-12-31 19:55:16', 'value for description')[0m
+  [4;36;1mTrack Load (0.8ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 12:57:08) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.5ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 19:57:08', NULL, '2009-12-31 19:57:08', NULL)[0m
+Completed in 160ms (View: 151, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mSQL (1.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:57:08', 'value for title', '2009-12-31 19:57:08', 'value for description')[0m
+  [4;36;1mTrack Load (0.6ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 12:57:28) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.6ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 19:57:28', NULL, '2009-12-31 19:57:28', NULL)[0m
+Completed in 118ms (View: 114, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:57:28', 'value for title', '2009-12-31 19:57:28', 'value for description')[0m
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:57:48', 'value for title', '2009-12-31 19:57:48', 'value for description')[0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 12:57:48) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 19:57:48', NULL, '2009-12-31 19:57:48', NULL)[0m
+Completed in 26ms (View: 22, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (1.7ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 12:58:55) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (3.1ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 19:58:55', NULL, '2009-12-31 19:58:55', NULL)[0m
+Completed in 30ms (View: 20, DB: 6) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:58:55', 'value for title', '2009-12-31 19:58:55', 'value for description')[0m
+  [4;36;1mTrack Load (0.9ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#/tracks/new (for 0.0.0.0 at 2009-12-31 12:59:48) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+Rendering track//tracks/new
+  [4;35;1mTrack Create (0.5ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 19:59:48', 'value for title', '2009-12-31 19:59:48', 'value for description')[0m
+  [4;36;1mTrack Load (0.5ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mTrack Create (0.5ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:00:34', 'value for title', '2009-12-31 20:00:34', 'value for description')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:01:44) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.4ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:01:44', NULL, '2009-12-31 20:01:44', NULL)[0m
+Completed in 31ms (View: 25, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:01:44', 'value for title', '2009-12-31 20:01:44', 'value for description')[0m
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:02:42) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.8ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:02:42', NULL, '2009-12-31 20:02:42', NULL)[0m
+Completed in 26ms (View: 18, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:02:42', 'value for title', '2009-12-31 20:02:42', 'value for description')[0m
+  [4;36;1mTrack Load (1.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:04:16) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.4ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:04:16', NULL, '2009-12-31 20:04:16', NULL)[0m
+Completed in 22ms (View: 18, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (2.1ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:04:16', 'value for title', '2009-12-31 20:04:16', 'value for description')[0m
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:07:24', 'value for title', '2009-12-31 20:07:24', 'value for description')[0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:07:24) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:07:24', NULL, '2009-12-31 20:07:24', NULL)[0m
+Completed in 21ms (View: 17, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:08:15', 'value for title', '2009-12-31 20:08:15', 'value for description')[0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:08:15) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:08:15', NULL, '2009-12-31 20:08:15', NULL)[0m
+Completed in 33ms (View: 29, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.6ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:08:24', 'value for title', '2009-12-31 20:08:24', 'value for description')[0m
+  [4;35;1mTrack Load (0.5ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:08:24) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:08:24', NULL, '2009-12-31 20:08:24', NULL)[0m
+Completed in 18ms (View: 14, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:09:39', 'value for title', '2009-12-31 20:09:39', 'value for description')[0m
+  [4;35;1mTrack Load (0.5ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:09:39) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;36;1mTrack Create (0.9ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:09:39', NULL, '2009-12-31 20:09:39', NULL)[0m
+Completed in 24ms (View: 19, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (2.1ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:14:35) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.4ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:14:35', NULL, '2009-12-31 20:14:35', NULL)[0m
+Completed in 29ms (View: 25, DB: 3) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(1, 'value for content_url', '2009-12-31 20:14:35', 'value for title', '2009-12-31 20:14:35', 'value for description')[0m
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:19:44) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (4.5ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:19:44', NULL, '2009-12-31 20:19:44', NULL)[0m
+Completed in 78ms (View: 53, DB: 6) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:19:44', NULL, '2009-12-31 20:19:44', 'I am a cake')[0m
+  [4;36;1mTrack Load (2.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:30:26) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.5ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:30:26', NULL, '2009-12-31 20:30:26', NULL)[0m
+Completed in 59ms (View: 39, DB: 4) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Create (25.1ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:30:27', NULL, '2009-12-31 20:30:27', 'I am a cake')[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:31:18) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.5ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:31:18', NULL, '2009-12-31 20:31:18', NULL)[0m
+Completed in 23ms (View: 18, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Create (0.3ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:31:18', NULL, '2009-12-31 20:31:18', 'I am a cake')[0m
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:33:09) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.4ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:33:09', NULL, '2009-12-31 20:33:09', NULL)[0m
+Completed in 27ms (View: 21, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.6ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Create (0.4ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:33:09', NULL, '2009-12-31 20:33:09', 'I am a cake')[0m
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:35:29) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Create (0.4ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:35:29', NULL, '2009-12-31 20:35:29', NULL)[0m
+Completed in 47ms (View: 43, DB: 2) | 201 Created [http://test.host/track/create?content_url=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&description=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&title=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Create (0.3ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, NULL, '2009-12-31 20:35:29', NULL, '2009-12-31 20:35:29', 'I am a cake')[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:39:12) [POST]
+  Parameters: {"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}
+  [4;35;1mTrack Load (0.4ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:41:57) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:41:57', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:41:57', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 35ms (View: 31, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:44:29) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:44:29', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:44:29', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 19ms (View: 14, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:44:57) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:44:57', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:44:57', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 20ms (View: 16, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:47:39) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:47:39', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:47:39', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 36ms (View: 32, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:48:23) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:48:23', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:48:23', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 19ms (View: 15, DB: 3) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.4ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:50:00) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:50:00', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:50:00', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 21ms (View: 17, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:52:23) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:52:23', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:52:23', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 18ms (View: 13, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:53:17) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:53:17', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:53:17', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 82ms (View: 78, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:58:21) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:58:21', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:58:21', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 54ms (View: 50, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 13:59:17) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 20:59:17', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 20:59:17', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 18ms (View: 14, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:02:26) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:02:26', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:02:26', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 19ms (View: 14, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:03:02) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:03:02', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:03:02', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 20ms (View: 14, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.6ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:03:42) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:03:42', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:03:42', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 32ms (View: 26, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:10:31) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:10:31', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:10:31', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 33ms (View: 28, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:10:51) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:10:51', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:10:51', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 18ms (View: 13, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.5ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:11:31) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:11:31', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:11:31', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 21ms (View: 15, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.6ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.4ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:12:06) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:12:06', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:12:06', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 18ms (View: 14, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:13:11) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:13:11', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:13:11', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 18ms (View: 13, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:22:52) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.3ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:22:52', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:22:52', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 31ms (View: 27, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:23:32) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.3ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:23:32', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:23:32', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 19ms (View: 15, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:24:20) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:24:20', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:24:20', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 19ms (View: 15, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.4ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:24:45) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:24:45', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:24:45', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 22ms (View: 18, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:25:08) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:25:08', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:25:08', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 22ms (View: 15, DB: 5) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.5ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:25:35) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:25:35', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:25:35', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 19ms (View: 14, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:26:14) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;36;1mTrack Create (0.4ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:26:14', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:26:14', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 19ms (View: 14, DB: 2) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:30:13) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;35;1mTrack Create (0.4ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:30:13', 'Fennesz and Sparklehorse - Music Box oF Snakes', '2009-12-31 21:30:13', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+Completed in 33ms (View: 28, DB: 1) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=Fennesz+and+Sparklehorse+-+Music+Box+oF+Snakes]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;36;1mTrack Create (0.5ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, '--- :cake
+', '2009-12-31 21:30:13', 'I am a cake', '2009-12-31 21:30:13', NULL)[0m
+  [4;35;1mTrack Create (0.1ms)[0m   [0mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, '--- :cake
+', '2009-12-31 21:30:13', 'I am a cake', '2009-12-31 21:30:13', NULL)[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:30:58) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'Fennesz and Sparklehorse - Music Box oF Snakes') LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.1ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.2ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'I am a cake') LIMIT 1[0m
+  [4;36;1mTrack Create (0.3ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, '--- :cake
+', '2009-12-31 21:30:58', 'I am a cake', '2009-12-31 21:30:58', NULL)[0m
+  [4;35;1mTrack Load (0.2ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'I am a cake') LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:32:58) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"Fennesz and Sparklehorse - Music Box oF Snakes", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;35;1mTrack Load (0.3ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'Fennesz and Sparklehorse - Music Box oF Snakes') LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.1ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.1ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'I am a cake') LIMIT 1[0m
+  [4;36;1mTrack Create (0.3ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, '--- :cake
+', '2009-12-31 21:32:58', 'I am a cake', '2009-12-31 21:32:58', NULL)[0m
+  [4;35;1mTrack Load (0.2ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'I am a cake') LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.2ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.1ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'I am a cake') LIMIT 1[0m
+  [4;36;1mTrack Create (0.3ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, '--- :cake
+', '2009-12-31 21:35:03', 'I am a cake', '2009-12-31 21:35:03', NULL)[0m
+  [4;35;1mTrack Load (0.2ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'I am a cake') LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:35:03) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>:new_track, "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;35;1mTrack Load (0.2ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'new_track') LIMIT 1[0m
+  [4;36;1mTrack Create (0.3ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:35:03', '--- :new_track
+', '2009-12-31 21:35:03', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+  [4;35;1mTrack Load (0.1ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'new_track' AND "tracks".id <> 980190963) LIMIT 1[0m
+Completed in 20ms (View: 13, DB: 3) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=new_track]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."title" = '--- :new_track
+') LIMIT 1[0m
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.1ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" IS NULL) LIMIT 1[0m
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+  [4;35;1mTrack Load (0.1ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'I am a cake') LIMIT 1[0m
+  [4;36;1mTrack Create (0.3ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, '--- :cake
+', '2009-12-31 21:36:23', 'I am a cake', '2009-12-31 21:36:23', NULL)[0m
+  [4;35;1mTrack Load (0.2ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'I am a cake') LIMIT 1[0m
+  [4;36;1mTrack Load (0.4ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."id" = 980190962) [0m
+
+
+Processing TrackController#create (for 0.0.0.0 at 2009-12-31 14:36:23) [POST]
+  Parameters: {"track"=>{"content_url"=>"http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata", "title"=>"new_track", "description"=>"Ambient Hyptonic Electro Minimal Snap Crackle Pop"}}
+  [4;35;1mTrack Load (0.2ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'new_track') LIMIT 1[0m
+  [4;36;1mTrack Create (0.3ms)[0m   [0;1mINSERT INTO "tracks" ("record_id", "content_url", "created_at", "title", "updated_at", "description") VALUES(NULL, 'http://www.youtube.com/v/n1er-yHVVns?f=videos&app=youtube_gdata', '2009-12-31 21:36:23', 'new_track', '2009-12-31 21:36:23', 'Ambient Hyptonic Electro Minimal Snap Crackle Pop')[0m
+  [4;35;1mTrack Load (0.1ms)[0m   [0mSELECT "tracks".id FROM "tracks" WHERE ("tracks"."title" = 'new_track' AND "tracks".id <> 980190963) LIMIT 1[0m
+Completed in 22ms (View: 15, DB: 3) | 201 Created [http://test.host/track/create?track%5Bcontent_url%5D=http%3A%2F%2Fwww.youtube.com%2Fv%2Fn1er-yHVVns%3Ff%3Dvideos%26app%3Dyoutube_gdata&track%5Bdescription%5D=Ambient+Hyptonic+Electro+Minimal+Snap+Crackle+Pop&track%5Btitle%5D=new_track]
+  [4;36;1mTrack Load (0.3ms)[0m   [0;1mSELECT * FROM "tracks" WHERE ("tracks"."title" = 'new_track') LIMIT 1[0m
